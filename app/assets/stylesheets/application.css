@@ -1,0 +1,18 @@
+body {
+    padding: 16px;
+}
+
+button {
+    font-size: 1rem;
+}
+
+.button-container {
+    display: grid;
+    gap: 8px;
+}
+
+.center {
+    display: grid;
+    place-items: center;
+    height: 100%
+}
