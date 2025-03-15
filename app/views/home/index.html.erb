@@ -5,11 +5,10 @@
 <h1>Home</h1>
 <div class="center">
 <div class="button-container">
-    
-        <button>Log in</button>
-    
-        <button>Register</button>
-    
-        <button>Log out</button>
+        <%= button_to "Log in", new_session_path, method: :get, class: "btn" %>
+        
+        <%= button_to "Register", new_user_path, method: :get, class: "btn" %>
+
+        <%= button_to "Log out", session_path, method: :delete, class: "btn" %>
     </div>
 </div>
