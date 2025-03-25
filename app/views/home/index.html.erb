@@ -1,14 +1,11 @@
-<style>
-    
-</style>
-
 <h1>Home</h1>
-<div class="center">
-<div class="button-container">
-        <%= button_to "Log in", new_session_path, method: :get, class: "btn" %>
-        
-        <%= button_to "Register", new_user_path, method: :get, class: "btn" %>
 
+<div class="center button-container">
+    
+    <% if authenticated? %>
         <%= button_to "Log out", session_path, method: :delete, class: "btn" %>
-    </div>
+    <% else %>    
+        <%= button_to "Log in", new_session_path, method: :get, class: "btn" %>
+        <%= button_to "Register", new_user_path, method: :get, class: "btn" %>
+    <% end %>
 </div>
