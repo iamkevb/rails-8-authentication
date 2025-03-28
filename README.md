@@ -1,24 +1,3 @@
-# README
+# Rails 8 Authentication Demo App
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Rails 8 comes with a new generator that does most of the work for you to set up authentication in your app by just running `bin/rails generate authentication`
